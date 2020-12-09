@@ -78,7 +78,7 @@ export default {
     sendLogoutRequest({ commit }) {
       //axios.post("https://g10-blockcovid-api-staging.herokuapp.com/api/deconnexion").then(() => {
         commit("setUserData", null);
-        localStorage.removeItem("authUser");
+        localStorage.removeItem("authToken");
       //});
     },
     /*sendVerifyResendRequest() {
